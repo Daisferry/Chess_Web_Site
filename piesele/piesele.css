@@ -58,6 +58,8 @@ html::-webkit-scrollbar-thumb:hover
     transform: translate(-50%,-50%);
     left: 65%;
     top: 15%;
+    width: 50%;
+    text-align: center;
     color: white;
     font-size: 36px;
     font-family: Arial;
