@@ -1,4 +1,4 @@
-const statusText = document.getElementById('status');
+    const statusText = document.getElementById('status');
     const cancelButton = document.getElementById('cancel-button');
 
     
