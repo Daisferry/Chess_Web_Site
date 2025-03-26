@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0d9b5; 
+    margin: 0;
+    padding: 20px;
+    color: #333333;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 3em;
+    color: #333333;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  .openings-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .opening-box {
+    background-color: #ffffff;
+    border: 4px solid #000000;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+  }
+
+  .opening-box:hover {
+    transform: scale(1.02); 
+  }
+
+  .opening-box h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #b58863; 
+  }
+
+  .opening-box h3 {
+    font-size: 1.5em;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: #333333;
+  }
+
+  .opening-box p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #555555;
+  }
+
+  .opening-box ul {
+    margin-left: 20px;
+    list-style-type: square;
+  }
+
+  .opening-box ul li {
+    margin-bottom: 10px;
+  }
+
+  .opening-box .steps {
+    background-color: #f0d9b5;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+
+  .opening-box .ideas {
+    background-color: #b58863;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    color: #ffffff;
+  }
+
+  .opening-box .results {
+    background-color: #333333;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    color: #ffffff;
+  }

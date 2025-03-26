@@ -1,0 +1,166 @@
+
+html
+{
+    height: 308.5%;
+    overflow: auto;
+}
+
+.body_change
+{
+    background-color: rgb(77, 75, 75);
+}
+
+html::-webkit-scrollbar 
+{
+    width: 6px; 
+}
+
+html::-webkit-scrollbar-track 
+{
+    background: rgba(255, 255, 255, 0.05); 
+    border-radius: 10px;
+}
+
+html::-webkit-scrollbar-thumb 
+{
+    background: rgba(255, 255, 255, 0.2); 
+    border-radius: 10px;
+}
+
+html::-webkit-scrollbar-thumb:hover 
+{
+    background: rgba(255, 255, 255, 0.4); 
+}
+
+/* fork */
+.box_holder_fork
+{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    background-color: rgb(37, 37, 37);
+    left: 50%;
+    top: 30%;
+    width: 90%;
+    height: 45%;
+    border: rgb(156, 156, 156) 3px solid;
+}
+
+/* pin */
+.box_holder_pin
+{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    background-color: rgb(37, 37, 37);
+    left: 50%;
+    top: 80%;
+    width: 90%;
+    height: 45%;
+    border: rgb(156, 156, 156) 3px solid;
+}
+
+/* skewer */
+.box_holder_skewer
+{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    background-color: rgb(37, 37, 37);
+    left: 50%;
+    top: 130%;
+    width: 90%;
+    height: 45%;
+    border: rgb(156, 156, 156) 3px solid;
+}
+
+/* disovered attack */
+.box_holder_discovered_attack
+{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    background-color: rgb(37, 37, 37);
+    left: 50%;
+    top: 180%;
+    width: 90%;
+    height: 45%;
+    border: rgb(156, 156, 156) 3px solid;
+}
+
+/* trapping piece */
+.box_holder_trapping_piece
+{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    background-color: rgb(37, 37, 37);
+    left: 50%;
+    top: 230%;
+    width: 90%;
+    height: 45%;
+    border: rgb(156, 156, 156) 3px solid;
+}
+
+/* double check */
+.box_holder_double_check
+{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    background-color: rgb(37, 37, 37);
+    left: 50%;
+    top: 280%;
+    width: 90%;
+    height: 45%;
+    border: rgb(156, 156, 156) 3px solid;
+}
+
+
+
+
+
+.img1
+{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 20%;
+    height: 80%;
+    left: 15%;
+    top: 50%;
+    border: white 3px solid;
+}
+
+.img2
+{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 20%;
+    height: 80%;
+    left: 40%;
+    top: 50%;
+    border: white 3px solid;
+}
+
+.title_text
+{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 40px;
+    font-family: Arial;
+    left: 75%;
+    top: 18%;
+    text-align: center;
+}
+
+.bottom_text
+{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 36px;
+    font-family: Arial;
+    left: 75%;
+    top: 55%;
+    width: 40%;
+    text-align: center;
+
+    word-wrap: break-word; 
+    overflow-wrap: break-word; 
+    white-space: normal;
+}

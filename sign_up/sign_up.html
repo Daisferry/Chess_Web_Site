@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="sign_up.css"> 
+  <title>Chesster - Login</title>
+</head>
+<body>
+  <div class="container">
+    <h1><span>Chesster</span></h1>
+
+    <form id="login-form">
+      <div class="form-group">
+        <label for="login-id">Login ID</label>
+        <input type="text" id="login-id" placeholder="Enter your login ID" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Enter your password" required>
+      </div>
+      <button type="submit" class="button">Login</button>
+    </form>
+
+    <div class="switch-text">
+      Don't have an account? <a href="#" id="register-link">Register</a>
+    </div>
+
+
+    <form id="register-form" style="display: none;">
+      <div class="form-group">
+        <label for="register-id">Create Login ID</label>
+        <input type="text" id="register-id" placeholder="Choose a login ID" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Enter your email" required>
+      </div>
+      <div class="form-group">
+        <label for="new-password">Create Password</label>
+        <input type="password" id="new-password" placeholder="Choose a password" required>
+      </div>
+      <button type="submit" class="button">Register</button>
+    </form>
+
+
+    <div class="switch-text" id="login-link" style="display: none;">
+      Already have an account? <a href="#" id="login-text-link">Login</a>
+    </div>
+  </div>
+
+  <script>
+
+    const loginForm = document.getElementById('login-form');
+    const registerForm = document.getElementById('register-form');
+    const registerLink = document.getElementById('register-link');
+    const loginLink = document.getElementById('login-link');
+    const loginTextLink = document.getElementById('login-text-link');
+
+    registerLink.addEventListener('click', (e) => {
+      e.preventDefault();
+      loginForm.style.display = 'none';
+      registerForm.style.display = 'block';
+      loginLink.style.display = 'block';
+    });
+
+    loginTextLink.addEventListener('click', (e) => {
+      e.preventDefault();
+      registerForm.style.display = 'none';
+      loginForm.style.display = 'block';
+      loginLink.style.display = 'none';
+    });
+
+
+    loginForm.addEventListener('submit', (e) => {
+      e.preventDefault();
+      alert('Login successful! (Nu, nu ti-am furat datele.. inca.)');
+    });
+
+    registerForm.addEventListener('submit', (e) => {
+      e.preventDefault();
+      alert('Registration successful! (Nu, nu ti-am furat datele.. inca.)');
+    });
+  </script>
+</body>
+</html>
